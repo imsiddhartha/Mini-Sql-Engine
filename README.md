@@ -4,6 +4,7 @@ In this project,I have used General SQL Parser(Gsqlpaerser) http://www.sqlparser
 Here are the details of the project:
 
 A.Dataset​:
+	
 	1.Csv files for tables. 
 		a.If a file is :File1.csv then,the table name would be File1.
 		b.There will be no tab­separation or space­separation 
@@ -19,10 +20,13 @@ A.Dataset​:
 	<end_table>
 
 B.Type of Queries:
+
 	1.Select all records​ : 
 		Example:Select * from table_name;
-	2.Aggregate functions:​Simple aggregate functions on a single column. Sum, average, max and min. They will be very trivial given that the data is only numbers:
+	
+	2.Aggregate functions:​Simple aggregate functions on a single column. Sum, average, max and min.
 		Example: select max(col1) from table1;
+		
 	3.Project Columns​ from one or more tables :
 		Example: Select col1, col2 from table_name; 
 		
@@ -37,6 +41,7 @@ B.Type of Queries:
 		
 	7.Insert Command: 
 		​Example: Insert into <table­name> values(v​,..v​);
+		
 	8.Delete Command:​Delete a single record from a given table. Only one where condition would be given.
 		Example:Delete from <table­name> where <attribute> = <some­value>
 	
@@ -47,4 +52,5 @@ B.Type of Queries:
 		Example:DROP TABLE table_name; 
 	
 C.Error Handling:
+
 	Almost all major types of errors are handled.
