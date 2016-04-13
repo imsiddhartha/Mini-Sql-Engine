@@ -1,6 +1,8 @@
 This is a mini sql Engine (in java) used for running some set of queries using command line interface.
-In this project,I have used General SQL Parser(Gsqlpaerser) http://www.sqlparser.com/kb/javadoc/gudusoft/gsqlparser/TGSqlParser.html 
+In this project,I have used General SQL Parser(Gsqlpaerser) http://www.sqlparser.com/kb/javadoc/gudusoft/gsqlparser/TGSqlParser.html
+
 Here are the details of the project:
+
 A.Dataset​:
 	1.Csv files for tables. 
 		a.If a file is :File1.csv then,the table name would be File1.
